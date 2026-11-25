@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Core palette -->
+    <color name="bg_cream">#FAF9F5</color>
+    <color name="surface_white">#FFFFFF</color>
+    <color name="sage_green">#4D7759</color>
+    <color name="sage_green_dark">#3A5E45</color>
+    <color name="sage_green_light">#7FA38B</color>
+    <color name="on_sage">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_dark">#1E2923</color>
+    <color name="text_muted">#6B7A72</color>
+    <color name="text_hint">#9AA6A0</color>
+    <color name="text_slate">#6B7A72</color>
+
+    <!-- Pastel badges -->
+    <color name="badge_sage">#E8F0EA</color>
+    <color name="badge_mint">#E8F3EC</color>
+    <color name="badge_yellow">#FDF6E2</color>
+    <color name="badge_blue">#EAF4FA</color>
+    <color name="badge_peach">#FCEEE9</color>
+
+    <!-- Status colors -->
+    <color name="status_healthy">#4D9B67</color>
+    <color name="status_healthy_bg">#E6F4EA</color>
+    <color name="status_healthy_accent">#4D9B67</color>
+    <color name="status_warning">#D99A1E</color>
+    <color name="status_warning_bg">#FDF3DC</color>
+    <color name="status_overdue">#C9503B</color>
+    <color name="status_overdue_bg">#FBE9E5</color>
+    <color name="status_overdue_accent">#C9503B</color>
+
+    <!-- Lines and overlays -->
+    <color name="divider">#E6E4DC</color>
+    <color name="card_stroke">#EEECE4</color>
+    <color name="scrim">#66000000</color>
+
+    <!-- Basics -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Batch 3 Screen & Care Coach Colors -->
+    <color name="sage_primary">#4D7759</color>
+    <color name="sage_soft_badge">#E8F3EC</color>
+    <color name="banner_sage_start">#4D7759</color>
+    <color name="banner_sage_end">#7FA38B</color>
+    <color name="surface_warm">#FAF9F5</color>
+    <color name="divider_warm">#E6E4DC</color>
+    <color name="blush_accent">#C9503B</color>
+    <color name="status_due_bg">#FDF3DC</color>
+    <color name="status_due_accent">#D99A1E</color>
+
+</resources>

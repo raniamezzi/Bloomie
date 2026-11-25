@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "title": "Bloomie Care Coach",
+  "symptoms": [
+    {
+      "id": "yellowing_leaves",
+      "title": "Yellowing leaves",
+      "description": "Leaves are turning yellow, pale or lime green.",
+      "questions": [
+        {
+          "id": "yellow_which_leaves",
+          "text": "Which leaves are turning yellow?",
+          "options": [
+            { "id": "lower_leaves", "label": "Mostly the older, lower leaves", "causeIds": ["overwatering", "natural_aging", "nutrient_deficiency"] },
+            { "id": "new_leaves", "label": "The new growth at the top", "causeIds": ["nutrient_deficiency", "poor_water_quality"] },
+            { "id": "all_over", "label": "Leaves all over the plant", "causeIds": ["overwatering", "underwatering"] }
+          ]
+        },
+        {
+          "id": "yellow_soil_feel",
+          "text": "How does the soil feel right now?",
+          "options": [
+            { "id": "wet_soggy", "label": "Wet or soggy, maybe a musty smell", "causeIds": ["overwatering"] },
+            { "id": "bone_dry", "label": "Bone dry and pulling from the pot edges", "causeIds": ["underwatering"] },
+            { "id": "slightly_moist", "label": "Slightly moist, nothing unusual", "causeIds": ["nutrient_deficiency", "natural_aging", "poor_water_quality"] }
+          ]
+        }
+      ],
+      "causes": [
+        {
+          "id": "overwatering",
+          "title": "Overwatering",
+          "urgency": "high",
+          "explanation": "Constantly wet soil starves the roots of oxygen and can lead to root rot, which shows up first as yellow, soft leaves.",
+          "signs": ["Yellow lower leaves that feel soft or limp", "Soil stays wet for days", "Musty smell or black, mushy roots", "Fungus gnats around the pot"],
+          "remedies": [
+            "Stop watering and let the top 2-3 inches of soil dry out before watering again.",
+            "Check that the pot has drainage holes and empty the saucer after every watering.",
+            "If the soil smells bad, slide the plant out, trim black or mushy roots and repot in fresh, well-draining mix.",
+            "Move the plant to brighter indirect light so the soil dries faster.",
+            "Use a moisture check with your finger before every watering instead of a fixed schedule."
+          ]
+        },
+        {
+          "id": "underwatering",
+          "title": "Underwatering",
+          "urgency": "medium",
+          "explanation": "When the roots run out of water the plant sacrifices leaves, which turn yellow, then dry and crispy.",
+          "signs": ["Yellow leaves that feel dry or papery", "Soil is hard and shrunken away from the pot", "Pot feels very light", "Leaves drop easily"],
+          "remedies": [
+            "Water slowly and thoroughly until it drains out of the bottom of the pot.",
+            "If water runs straight through, bottom-soak the pot in a tub for 20-30 minutes.",
+            "Remove fully yellow or crispy leaves so the plant can focus on healthy growth.",
+            "Set a reminder in Bloomie to water on a consistent schedule."
+          ]
+        },
+        {
+          "id": "nutrient_deficiency",
+          "title": "Nutrient deficiency",
+          "urgency": "low",
+          "explanation": "A shortage of nitrogen, iron or magnesium causes pale or yellowing leaves, often with the veins staying green.",
+          "signs": ["Pale or uniformly light green leaves", "Slow or stunted growth", "Yellowing between green veins", "Plant has not been fed or repotted in over a year"],
+          "remedies": [
+            "Feed with a balanced liquid houseplant fertilizer at half strength every 4 weeks in spring and summer.",
+            "Repot into fresh potting mix if the soil is old and compacted.",
+            "Flush the soil with plain water every few months to remove fertilizer salts.",
+            "Skip fertilizer in winter when growth slows."
+          ]
+        },
+        {
+          "id": "natural_aging",
+          "title": "Natural leaf aging",
+          "urgency": "low",
+          "explanation": "Plants regularly shed their oldest leaves as new growth emerges. A single yellow lower leaf now and then is normal.",
+          "signs": ["Only one or two of the oldest leaves are yellow", "New growth looks healthy", "No other symptoms"],
+          "remedies": [
+            "Gently pull or snip off the yellow leaf at the base.",
+            "Keep your current watering and light routine.",
+            "Keep an eye out: if more leaves follow quickly, recheck watering and light."
+          ]
+        },
+        {
+          "id": "poor_water_quality",
+          "title": "Water quality or minerals",
+          "urgency": "low",
+          "explanation": "Hard tap water with lots of minerals, chlorine or fluoride can build up in the soil and cause pale, yellow-tinged leaves.",
+          "signs": ["White crust on the soil or pot rim", "Pale new leaves", "Leaf tips burn or yellow over time"],
+          "remedies": [
+            "Switch to filtered, rain or distilled water, or let tap water sit out overnight before use.",
+            "Flush the soil thoroughly with plain water to wash out mineral buildup.",
+            "Repot into fresh soil if the crust returns quickly."
+          ]
+        }
+      ],
+      "prevention": "Check the soil with your finger before every watering, use a pot with drainage and feed lightly during the growing season."
+    },
+    {
+      "id": "brown_crispy_tips",
+      "title": "Brown, crispy tips",
+      "description": "The tips or edges of the leaves are turning brown and dry.",
+      "questions": [
+        {
+          "id": "brown_home_air",
+          "text": "How is the air around your plant?",
+          "options": [
+            { "id": "dry_air", "label": "Dry: heating, air conditioning or a very dry room", "causeIds": ["low_humidity", "underwatering"] },
+            { "id": "normal_air", "label": "Normal indoor air", "causeIds": ["mineral_buildup", "inconsistent_watering", "fertilizer_burn"] },
+            { "id": "sunny_window", "label": "Hot and sunny, right at a window", "causeIds": ["sun_scorch", "underwatering"] }
+          ]
+        },
+        {
+          "id": "brown_tip_details",
+          "text": "What do the damaged areas look like?",
+          "options": [
+            { "id": "thin_brown_tips", "label": "Thin dry brown tips and edges", "causeIds": ["low_humidity", "mineral_buildup", "underwatering"] },
+            { "id": "white_crust", "label": "Brown tips plus a white crust on the soil", "causeIds": ["mineral_buildup", "fertilizer_burn"] },
+            { "id": "large_patches", "label": "Large bleached or brown patches in the middle of leaves", "causeIds": ["sun_scorch"] }
+          ]
+        }
+      ],
+      "causes": [
+        {
+          "id": "low_humidity",
+          "title": "Low humidity",
+          "urgency": "low",
+          "explanation": "Tropical plants lose moisture faster than their roots can supply it in dry air, so the leaf tips dry out first.",
+          "signs": ["Dry brown tips on several leaves", "Worse in winter when heating is on", "Leaf edges curl inward", "Common on calatheas, ferns and peace lilies"],
+          "remedies": [
+            "Group plants together to create a more humid microclimate.",
+            "Run a humidifier nearby or set the pot on a pebble tray with water below the pebbles.",
+            "Keep the plant away from heaters, radiators and air-conditioning vents.",
+            "Trim brown tips with clean scissors, following the natural leaf shape."
+          ]
+        },
+        {
+          "id": "mineral_buildup",
+          "title": "Minerals and chemicals in tap water",
+          "urgency": "low",
+          "explanation": "Salts, chlorine and fluoride accumulate in the soil and are pulled into the leaf tips, where they burn the tissue.",
+          "signs": ["Crispy brown tips on a plant that otherwise looks healthy", "White or yellow crust on the soil surface", "Problem returns after trimming"],
+          "remedies": [
+            "Switch to distilled, filtered or rain water.",
+            "Flush the soil by watering heavily and letting it drain freely every month or two.",
+            "Scrape off the crust on the soil surface and top up with fresh potting mix.",
+            "Trim damaged tips for appearance."
+          ]
+        },
+        {
+          "id": "underwatering",
+          "title": "Underwatering",
+          "urgency": "medium",
+          "explanation": "If the soil dries out completely too often, the plant cannot supply the furthest leaf tips with water.",
+          "signs": ["Soil is dry deep down", "Leaves feel thin and papery", "Brown tips with drooping leaves"],
+          "remedies": [
+            "Water until it drains from the bottom, then empty the saucer.",
+            "Bottom-soak very dry pots for 20-30 minutes.",
+            "Water on a consistent schedule and check the soil weekly."
+          ]
+        },
+        {
+          "id": "inconsistent_watering",
+          "title": "Inconsistent watering",
+          "urgency": "low",
+          "explanation": "Swinging between bone dry and soggy stresses the roots, and the damage appears at the leaf tips.",
+          "signs": ["Brown tips and some yellowing together", "Watering is irregular", "Soil is sometimes soggy, sometimes parched"],
+          "remedies": [
+            "Pick a routine and stick with it, checking the soil before you water.",
+            "Use Bloomie's reminders so watering is spaced evenly.",
+            "Choose a pot size that fits the root ball, since too large a pot stays wet too long."
+          ]
+        },
+        {
+          "id": "fertilizer_burn",
+          "title": "Fertilizer burn",
+          "urgency": "medium",
+          "explanation": "Too much fertilizer builds up salts in the soil that scorch the roots and leaf tips.",
+          "signs": ["Brown tips soon after feeding", "White crust on soil or pot", "Wilting even when the soil is moist"],
+          "remedies": [
+            "Flush the soil with plenty of plain water, letting it drain completely.",
+            "Pause fertilizer for 6-8 weeks.",
+            "When you resume, dilute to half the recommended strength."
+          ]
+        },
+        {
+          "id": "sun_scorch",
+          "title": "Sun scorch",
+          "urgency": "medium",
+          "explanation": "Direct midday sun burns the leaf tissue, leaving crispy brown or bleached patches.",
+          "signs": ["Bleached or brown patches facing the window", "Damage on the sunniest side only", "Leaves feel hot and dry"],
+          "remedies": [
+            "Move the plant a few feet back from the window or add a sheer curtain.",
+            "Trim badly burned leaves. They will not recover.",
+            "Reintroduce stronger light gradually over a couple of weeks if the plant needs it."
+          ]
+        }
+      ],
+      "prevention": "Use filtered water, keep the humidity up for tropical plants and avoid sudden shifts in watering or location."
+    },
+    {
+      "id": "drooping_wilting",
+      "title": "Drooping or wilting",
+      "description": "The whole plant or its stems look limp, saggy or floppy.",
+      "questions": [
+        {
+          "id": "droop_soil_check",
+          "text": "Push a finger 2 inches into the soil. How does it feel?",
+          "options": [
+            { "id": "dry_soil", "label": "Dry and crumbly", "causeIds": ["underwatering", "root_bound"] },
+            { "id": "wet_soil", "label": "Wet or soggy", "causeIds": ["overwatering_root_rot"] },
+            { "id": "moist_soil", "label": "Evenly moist", "causeIds": ["temperature_stress", "transplant_shock", "root_bound"] }
+          ]
+        },
+        {
+          "id": "droop_recent_change",
+          "text": "Has anything changed recently?",
+          "options": [
+            { "id": "recent_repot_move", "label": "I repotted or moved the plant", "causeIds": ["transplant_shock", "temperature_stress"] },
+            { "id": "heat_cold", "label": "It is near a heater, a cold window or a draft", "causeIds": ["temperature_stress"] },
+            { "id": "nothing_changed", "label": "Nothing has changed", "causeIds": ["underwatering", "overwatering_root_rot", "root_bound"] }
+          ]
+        }
+      ],
+      "causes": [
+        {
+          "id": "underwatering",
+          "title": "Thirst",
+          "urgency": "medium",
+          "explanation": "Without enough water the plant loses the internal pressure that holds leaves and stems upright, so it droops.",
+          "signs": ["Dry soil and a light pot", "Leaves droop but are not yellow or mushy", "Plant perks up within hours of watering"],
+          "remedies": [
+            "Water deeply until water runs out of the drainage holes.",
+            "For very dry soil, soak the pot in a basin of water for 20-30 minutes.",
+            "Check back in a few hours. A thirsty plant usually recovers quickly.",
+            "Set a Bloomie reminder to avoid repeating the cycle."
+          ]
+        },
+        {
+          "id": "overwatering_root_rot",
+          "title": "Overwatering and root rot",
+          "urgency": "high",
+          "explanation": "Waterlogged soil suffocates the roots. Damaged roots cannot take up water, so the plant wilts even though the soil is wet.",
+          "signs": ["Wet soil and drooping leaves together", "Yellowing leaves and soft stems at the base", "Dark, mushy roots with a bad smell"],
+          "remedies": [
+            "Do not water again. Move the plant to a bright spot with good airflow.",
+            "Slide it out of the pot and cut away any black, mushy or smelly roots.",
+            "Repot into fresh, well-draining mix in a pot with drainage holes.",
+            "Water lightly for the first few weeks while new roots form."
+          ]
+        },
+        {
+          "id": "root_bound",
+          "title": "Root-bound plant",
+          "urgency": "low",
+          "explanation": "When the pot is full of roots there is little soil to hold water, so the plant dries out quickly and wilts.",
+          "signs": ["Roots circling or poking out of the drainage holes", "Water runs straight through the pot", "Plant dries out within a day or two"],
+          "remedies": [
+            "Repot into a container 1-2 inches wider with fresh potting mix.",
+            "Loosen the outer roots gently before planting.",
+            "Water well after repotting and keep it out of direct sun for a week."
+          ]
+        },
+        {
+          "id": "temperature_stress",
+          "title": "Heat or cold stress",
+          "urgency": "medium",
+          "explanation": "Hot, dry air or a sudden cold draft makes the plant lose water faster than it can take it up.",
+          "signs": ["Droop near a heater, vent or cold window", "Leaves feel cold or curl", "Sudden change after a season shift"],
+          "remedies": [
+            "Move the plant away from heaters, radiators, air conditioners and drafty windows.",
+            "Aim for a steady 18-25°C (65-77°F) for most houseplants.",
+            "Mist or add a humidifier if the air is hot and dry."
+          ]
+        },
+        {
+          "id": "transplant_shock",
+          "title": "Transplant shock",
+          "urgency": "low",
+          "explanation": "Repotting or moving a plant disturbs the roots and its environment, causing a temporary droop while it adjusts.",
+          "signs": ["Droop starting a day or two after repotting or moving", "Soil is moist and healthy", "No pests or spots"],
+          "remedies": [
+            "Be patient and keep conditions steady for 2-3 weeks.",
+            "Avoid fertilizer until you see new growth.",
+            "Keep the plant in bright indirect light and water only when the top inch is dry."
+          ]
+        }
+      ],
+      "prevention": "Check the soil by touch before watering, repot when roots fill the pot and keep plants away from extreme temperatures."
+    },
+    {
+      "id": "pale_leggy_growth",
+      "title": "Pale or leggy growth",
+      "description": "The plant is stretching, thin, pale, or growing small leaves far apart.",
+      "questions": [
+        {
+          "id": "leggy_location",
+          "text": "How much light does the plant get?",
+          "options": [
+            { "id": "dim_room", "label": "A dim room or far from any window", "causeIds": ["insufficient_light"] },
+            { "id": "bright_room", "label": "A bright spot with plenty of daylight", "causeIds": ["nutrient_hunger", "needs_pruning", "root_bound_growth"] },
+            { "id": "leans_toward_window", "label": "It leans strongly toward the window", "causeIds": ["insufficient_light", "uneven_light"] }
+          ]
+        },
+        {
+          "id": "leggy_season",
+          "text": "When did you last fertilize or repot?",
+          "options": [
+            { "id": "over_a_year", "label": "More than a year ago, or never", "causeIds": ["nutrient_hunger", "root_bound_growth"] },
+            { "id": "recently", "label": "In the last few months", "causeIds": ["insufficient_light", "needs_pruning"] },
+            { "id": "winter_season", "label": "It is winter and growth has slowed", "causeIds": ["insufficient_light"] }
+          ]
+        }
+      ],
+      "causes": [
+        {
+          "id": "insufficient_light",
+          "title": "Not enough light",
+          "urgency": "medium",
+          "explanation": "Plants stretch toward light by growing long, weak stems with widely spaced, smaller, paler leaves. This is called etiolation.",
+          "signs": ["Long gaps between leaves", "Small, pale leaves", "Leaning toward the window", "Variegation fading to plain green"],
+          "remedies": [
+            "Move the plant closer to a bright window with filtered light.",
+            "In dark homes add a full-spectrum grow light for 8-12 hours a day.",
+            "Prune leggy stems to encourage bushier growth. Stretched stems will not shorten by themselves.",
+            "Make light changes gradually to avoid shocking the plant."
+          ]
+        },
+        {
+          "id": "uneven_light",
+          "title": "Uneven light",
+          "urgency": "low",
+          "explanation": "If light only reaches one side, the plant grows lopsided and leans toward the source.",
+          "signs": ["Plant bends toward the window", "Dense growth on one side and sparse growth on the other"],
+          "remedies": [
+            "Rotate the pot a quarter turn every week.",
+            "Place the plant where light reaches it from more than one direction."
+          ]
+        },
+        {
+          "id": "nutrient_hunger",
+          "title": "Lack of nutrients",
+          "urgency": "low",
+          "explanation": "Without nutrients in the soil, new growth comes in pale and weak even when light is good.",
+          "signs": ["Pale green or yellowish new leaves", "Slow growth in the growing season", "No fertilizer for over a year"],
+          "remedies": [
+            "Feed with a balanced liquid fertilizer at half strength every 4 weeks in spring and summer.",
+            "Refresh the top few inches of soil or repot with fresh mix.",
+            "Do not fertilize in winter when growth is naturally slow."
+          ]
+        },
+        {
+          "id": "needs_pruning",
+          "title": "Needs pruning",
+          "urgency": "low",
+          "explanation": "Vining and branching plants grow long and sparse unless you pinch or prune them regularly.",
+          "signs": ["Long bare stems with leaves only at the tips", "Few side shoots"],
+          "remedies": [
+            "Cut stems back just above a node using clean scissors.",
+            "Root the cuttings in water or soil to make new plants and fill out the pot.",
+            "Pinch growing tips regularly to encourage branching."
+          ]
+        },
+        {
+          "id": "root_bound_growth",
+          "title": "Root-bound",
+          "urgency": "low",
+          "explanation": "When roots have filled the pot the plant cannot absorb enough water and nutrients, which slows and thins the growth.",
+          "signs": ["Roots circling the inside of the pot or coming out of drainage holes", "Water drains immediately", "Growth has stalled"],
+          "remedies": [
+            "Repot into a container 1-2 inches larger with fresh potting mix.",
+            "Loosen the outer roots and trim any that are dead or circling tightly.",
+            "Water well and keep out of direct sun for a week."
+          ]
+        }
+      ],
+      "prevention": "Place plants where they get bright indirect light, rotate them weekly and feed lightly in the growing season."
+    },
+    {
+      "id": "pests_spots",
+      "title": "Pests or spots",
+      "description": "You see bugs, webbing, sticky residue, or spots and patches on the leaves.",
+      "questions": [
+        {
+          "id": "pests_what_see",
+          "text": "What do you see?",
+          "options": [
+            { "id": "fine_webs", "label": "Fine webbing and tiny speckles on leaves", "causeIds": ["spider_mites"] },
+            { "id": "white_cottony", "label": "White cottony fluff on stems or leaf joints", "causeIds": ["mealybugs"] },
+            { "id": "tiny_flies", "label": "Tiny black flies around the soil", "causeIds": ["fungus_gnats"] },
+            { "id": "dark_spots", "label": "Brown or black spots with yellow rings", "causeIds": ["fungal_leaf_spot"] },
+            { "id": "sticky_bumps", "label": "Sticky leaves or small brown bumps", "causeIds": ["scale_insects", "aphids"] }
+          ]
+        },
+        {
+          "id": "pests_conditions",
+          "text": "What are the conditions like?",
+          "options": [
+            { "id": "dry_warm", "label": "Warm and dry air", "causeIds": ["spider_mites", "scale_insects"] },
+            { "id": "wet_soil_humid", "label": "Soil stays wet or the room is humid", "causeIds": ["fungus_gnats", "fungal_leaf_spot"] },
+            { "id": "recent_new_plant", "label": "I recently brought home a new plant", "causeIds": ["mealybugs", "aphids", "spider_mites"] }
+          ]
+        }
+      ],
+      "causes": [
+        {
+          "id": "spider_mites",
+          "title": "Spider mites",
+          "urgency": "high",
+          "explanation": "Tiny sap-sucking mites thrive in warm, dry air and cause stippled leaves that eventually turn yellow and drop.",
+          "signs": ["Fine silky webs between leaves and stems", "Tiny yellow or white speckles on leaves", "Leaves turn dull and bronze"],
+          "remedies": [
+            "Isolate the plant from the others right away.",
+            "Rinse the plant thoroughly in the shower, especially the underside of the leaves.",
+            "Spray with insecticidal soap or neem oil solution every 5-7 days for 3-4 weeks.",
+            "Raise humidity, since mites dislike moist air.",
+            "Remove heavily infested leaves and discard them."
+          ]
+        },
+        {
+          "id": "mealybugs",
+          "title": "Mealybugs",
+          "urgency": "high",
+          "explanation": "Soft white insects that hide in cottony clusters and feed on plant sap, weakening the plant and leaving sticky honeydew.",
+          "signs": ["White cottony fluff in leaf joints and under leaves", "Sticky residue on leaves", "Distorted or stunted new growth"],
+          "remedies": [
+            "Isolate the plant immediately.",
+            "Dab each visible bug with a cotton swab dipped in 70% isopropyl alcohol.",
+            "Spray the whole plant with insecticidal soap or neem oil weekly for at least a month.",
+            "Check the soil and roots, since mealybugs can also live there.",
+            "Inspect nearby plants closely for spread."
+          ]
+        },
+        {
+          "id": "fungus_gnats",
+          "title": "Fungus gnats",
+          "urgency": "low",
+          "explanation": "Small flies that breed in constantly moist soil. The adults are an annoyance but the larvae can nibble delicate roots.",
+          "signs": ["Tiny black flies hovering around the plant or soil", "Soil stays wet for long periods", "Flies run across the soil surface"],
+          "remedies": [
+            "Let the top 2 inches of soil dry out fully between waterings.",
+            "Place yellow sticky traps near the soil to catch adults.",
+            "Treat the soil with a mosquito-bit (BTI) solution to kill the larvae.",
+            "Top the soil with a layer of sand or fine gravel to deter egg-laying."
+          ]
+        },
+        {
+          "id": "fungal_leaf_spot",
+          "title": "Fungal or bacterial leaf spot",
+          "urgency": "medium",
+          "explanation": "Water sitting on leaves and poor airflow let fungi and bacteria infect leaf tissue, producing spreading spots.",
+          "signs": ["Brown or black spots with yellow halos", "Spots that grow or merge", "Leaves that stay wet overnight"],
+          "remedies": [
+            "Remove and discard affected leaves with clean scissors.",
+            "Water at the soil level and avoid wetting the foliage.",
+            "Improve airflow and space the plants out.",
+            "Treat with a copper-based or houseplant fungicide if the spots keep spreading."
+          ]
+        },
+        {
+          "id": "scale_insects",
+          "title": "Scale insects",
+          "urgency": "medium",
+          "explanation": "Small armored bugs that attach to stems and leaf undersides, feeding on sap and leaving sticky honeydew.",
+          "signs": ["Small brown or tan bumps on stems and leaves that scrape off", "Sticky leaves", "Sooty black mold on the honeydew"],
+          "remedies": [
+            "Isolate the plant and scrape off visible scale with a soft brush or fingernail.",
+            "Wipe stems and leaves with alcohol-soaked cotton swabs.",
+            "Apply neem oil or horticultural oil every 7-10 days for a month.",
+            "Wipe away sticky honeydew with a damp cloth."
+          ]
+        },
+        {
+          "id": "aphids",
+          "title": "Aphids",
+          "urgency": "medium",
+          "explanation": "Soft-bodied green, black or brown insects that cluster on tender new growth and suck plant sap.",
+          "signs": ["Clusters of small insects on new shoots and buds", "Sticky honeydew on leaves", "Curled or distorted new leaves"],
+          "remedies": [
+            "Spray them off with a strong stream of water or wipe them away by hand.",
+            "Apply insecticidal soap or neem oil every 5-7 days until they are gone.",
+            "Isolate the plant until you have seen no aphids for two weeks."
+          ]
+        }
+      ],
+      "prevention": "Inspect new plants and quarantine them for two weeks, check the undersides of leaves weekly and avoid keeping soil constantly wet."
+    }
+  ]
+}

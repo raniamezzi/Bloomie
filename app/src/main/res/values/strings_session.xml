@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logout_confirm_title">Log out?</string>
+    <string name="logout_confirm_message">You will need to sign in again with your name and email.</string>
+    <string name="remember_me">Remember me</string>
+    <string name="error_wrong_password">Incorrect password</string>
+    <string name="error_account_not_found">No account found with this email</string>
+    <string name="error_account_exists">An account with this email already exists</string>
+</resources>

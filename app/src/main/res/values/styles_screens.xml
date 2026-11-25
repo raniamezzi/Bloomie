@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Outlined pill button in the overdue red, used for destructive actions -->
+    <style name="Widget.Bloomie.Button.Outlined.Danger">
+        <item name="strokeColor">@color/status_overdue</item>
+        <item name="android:textColor">@color/status_overdue</item>
+        <item name="rippleColor">@color/status_overdue_bg</item>
+    </style>
+
+</resources>

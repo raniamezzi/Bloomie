@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/menu_garden"
+        android:icon="@drawable/ic_garden"
+        android:title="@string/nav_garden_short" />
+
+    <item
+        android:id="@+id/menu_identify"
+        android:icon="@drawable/ic_camera"
+        android:title="@string/nav_identify" />
+
+    <item
+        android:id="@+id/menu_library"
+        android:icon="@drawable/ic_library"
+        android:title="@string/nav_library" />
+
+</menu>

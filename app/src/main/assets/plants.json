@@ -1,0 +1,212 @@
+[
+  {
+    "id": "monstera_deliciosa",
+    "commonName": "Monstera Deliciosa",
+    "scientificName": "Monstera deliciosa",
+    "category": "Tropical",
+    "difficulty": "Easy",
+    "watering": "Every 7-10 days. Water when the top 2-3 inches of soil are dry.",
+    "sunlight": "Bright, indirect light",
+    "humidity": "Medium to high (50-70%)",
+    "temperature": "18-30°C (65-85°F)",
+    "soil": "Chunky, well-draining aroid mix with perlite and bark",
+    "toxicity": "Toxic to cats, dogs and humans if eaten",
+    "description": "The iconic Swiss cheese plant, famous for its glossy heart-shaped leaves that develop dramatic splits and holes as it matures. A fast, forgiving grower that makes a bold statement in any bright room.",
+    "careTips": [
+      "Give it a moss pole or trellis to climb for larger, more fenestrated leaves.",
+      "Wipe the leaves with a damp cloth every few weeks to keep them glossy and dust-free.",
+      "Brown edges usually mean the air is too dry or watering is inconsistent.",
+      "Fertilize monthly in spring and summer with a balanced liquid feed.",
+      "Repot every 2 years into a pot one size larger."
+    ]
+  },
+  {
+    "id": "snake_plant",
+    "commonName": "Snake Plant",
+    "scientificName": "Dracaena trifasciata",
+    "category": "Succulent",
+    "difficulty": "Easy",
+    "watering": "Every 2-3 weeks. Let the soil dry out completely between waterings.",
+    "sunlight": "Low light to bright indirect light",
+    "humidity": "Low (30-50%)",
+    "temperature": "15-30°C (60-85°F)",
+    "soil": "Gritty cactus or succulent mix with excellent drainage",
+    "toxicity": "Mildly toxic to cats and dogs if chewed",
+    "description": "An architectural, nearly indestructible plant with upright, sword-shaped leaves. It tolerates neglect, dim corners and irregular watering, which makes it a perfect first plant.",
+    "careTips": [
+      "Overwatering is the number one killer. When in doubt, wait another week.",
+      "Reduce watering to once a month in winter.",
+      "Use a pot with drainage holes, ideally terracotta.",
+      "Rotate the pot occasionally so the leaves grow evenly.",
+      "Propagate by cutting a leaf into sections or by dividing the rhizome."
+    ]
+  },
+  {
+    "id": "fiddle_leaf_fig",
+    "commonName": "Fiddle Leaf Fig",
+    "scientificName": "Ficus lyrata",
+    "category": "Tree",
+    "difficulty": "Advanced",
+    "watering": "Every 7-10 days. Water thoroughly when the top 2 inches of soil are dry.",
+    "sunlight": "Bright, indirect light with a few hours of gentle morning sun",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-27°C (60-80°F)",
+    "soil": "Rich, well-draining potting mix with perlite",
+    "toxicity": "Toxic to cats and dogs if eaten",
+    "description": "A statement tree with large, violin-shaped leaves and a sculptural form. Beautiful but particular: it likes consistency in light, water and location, and dislikes drafts and being moved.",
+    "careTips": [
+      "Pick a bright spot and keep it there. Moving the plant often causes leaf drop.",
+      "Rotate a quarter turn each week so it grows straight rather than leaning.",
+      "Brown spots that spread from the center usually point to overwatering or root rot.",
+      "Keep it away from air conditioners, heaters and open doors.",
+      "Dust the large leaves regularly so they can photosynthesize efficiently."
+    ]
+  },
+  {
+    "id": "peace_lily",
+    "commonName": "Peace Lily",
+    "scientificName": "Spathiphyllum wallisii",
+    "category": "Flowering",
+    "difficulty": "Easy",
+    "watering": "Every 5-7 days. Keep the soil lightly moist but never soggy.",
+    "sunlight": "Low to medium indirect light",
+    "humidity": "High (50-70%)",
+    "temperature": "18-27°C (65-80°F)",
+    "soil": "Peat-based, moisture-retentive potting mix with good drainage",
+    "toxicity": "Toxic to cats, dogs and humans if eaten",
+    "description": "A graceful plant with dark green leaves and elegant white blooms. It is also a dramatic communicator: the leaves droop clearly when thirsty and bounce back within hours of watering.",
+    "careTips": [
+      "Water when the leaves just begin to droop, then drain the saucer.",
+      "Use filtered or rested tap water if the leaf tips turn brown.",
+      "Direct sun scorches the leaves; a bright north-facing window is ideal.",
+      "Few flowers usually means it needs more light.",
+      "Mist or group with other plants to raise the humidity."
+    ]
+  },
+  {
+    "id": "golden_pothos",
+    "commonName": "Pothos",
+    "scientificName": "Epipremnum aureum",
+    "category": "Vine",
+    "difficulty": "Easy",
+    "watering": "Every 7-10 days. Water when the top inch or two of soil is dry.",
+    "sunlight": "Low to bright indirect light",
+    "humidity": "Medium (40-60%)",
+    "temperature": "15-30°C (60-85°F)",
+    "soil": "All-purpose potting mix with added perlite",
+    "toxicity": "Toxic to cats, dogs and humans if eaten",
+    "description": "A cheerful trailing vine with heart-shaped, variegated leaves. It thrives on neglect, grows quickly, and looks great in hanging baskets, on shelves or trained up a moss pole.",
+    "careTips": [
+      "Yellow leaves usually mean too much water. Let the soil dry a little more.",
+      "Pinch back long vines to encourage fuller growth.",
+      "Variegation fades in low light, so give it brighter conditions to keep the patterns.",
+      "Propagate easily by rooting stem cuttings in water.",
+      "Fertilize lightly every 4-6 weeks during the growing season."
+    ]
+  },
+  {
+    "id": "zz_plant",
+    "commonName": "ZZ Plant",
+    "scientificName": "Zamioculcas zamiifolia",
+    "category": "Succulent",
+    "difficulty": "Easy",
+    "watering": "Every 2-3 weeks. Allow the soil to dry out completely between waterings.",
+    "sunlight": "Low light to bright indirect light",
+    "humidity": "Low to medium (30-50%)",
+    "temperature": "15-29°C (60-85°F)",
+    "soil": "Fast-draining cactus or succulent mix",
+    "toxicity": "Toxic to cats, dogs and humans if eaten; may irritate skin",
+    "description": "A tough, glossy plant with waxy, upright stems that stores water in thick underground rhizomes. It handles low light and long gaps between waterings better than almost any houseplant.",
+    "careTips": [
+      "Never let it sit in water. Soft, yellowing stems signal overwatering.",
+      "Growth is slow, so avoid frequent repotting and heavy fertilizing.",
+      "Wipe the leaves occasionally to keep them shiny.",
+      "Wash your hands after handling because the sap can irritate skin.",
+      "It will tolerate dim offices and bedrooms, but grows faster with brighter light."
+    ]
+  },
+  {
+    "id": "aloe_vera",
+    "commonName": "Aloe Vera",
+    "scientificName": "Aloe vera",
+    "category": "Succulent",
+    "difficulty": "Easy",
+    "watering": "Every 2-3 weeks. Soak thoroughly, then let the soil dry out completely.",
+    "sunlight": "Bright light with some direct sun",
+    "humidity": "Low (20-40%)",
+    "temperature": "13-27°C (55-80°F)",
+    "soil": "Sandy, gritty succulent mix in a pot with drainage holes",
+    "toxicity": "Toxic to cats and dogs if eaten",
+    "description": "A spiky, sun-loving succulent whose thick leaves store a soothing gel traditionally used on minor burns. It is easy to grow on a sunny windowsill and produces plenty of baby plants.",
+    "careTips": [
+      "Place it in the sunniest window you have. Leggy, flat growth means it needs more light.",
+      "Mushy or translucent leaves indicate overwatering.",
+      "Use terracotta pots to help the soil dry faster.",
+      "Separate the offsets (pups) once they have a few leaves to create new plants.",
+      "Water less in winter when growth slows."
+    ]
+  },
+  {
+    "id": "rubber_plant",
+    "commonName": "Rubber Plant",
+    "scientificName": "Ficus elastica",
+    "category": "Tree",
+    "difficulty": "Moderate",
+    "watering": "Every 7-10 days. Water when the top 2 inches of soil are dry.",
+    "sunlight": "Bright, indirect light",
+    "humidity": "Medium (40-60%)",
+    "temperature": "16-29°C (60-85°F)",
+    "soil": "Well-draining potting mix with perlite or bark",
+    "toxicity": "Mildly toxic to cats and dogs; the milky sap can irritate skin",
+    "description": "A bold houseplant with thick, glossy, deep green or burgundy leaves. More forgiving than its cousin the fiddle leaf fig, it grows into a striking indoor tree with minimal fuss.",
+    "careTips": [
+      "Wipe the large leaves with a damp cloth to keep them glossy.",
+      "Dropping lower leaves can mean overwatering or too little light.",
+      "Prune the top to encourage branching and control height.",
+      "Turn the pot regularly so it grows evenly toward the light.",
+      "Wear gloves when pruning because the sap is irritating."
+    ]
+  },
+  {
+    "id": "calathea_orbifolia",
+    "commonName": "Calathea Orbifolia",
+    "scientificName": "Goeppertia orbifolia",
+    "category": "Tropical",
+    "difficulty": "Advanced",
+    "watering": "Every 5-7 days. Keep the soil evenly moist but not waterlogged.",
+    "sunlight": "Medium to bright indirect light, never direct sun",
+    "humidity": "High (60-80%)",
+    "temperature": "18-27°C (65-80°F)",
+    "soil": "Light, airy, peat-based mix that holds moisture and drains well",
+    "toxicity": "Non-toxic to cats and dogs",
+    "description": "A showpiece with broad, round leaves striped in silver and green. The leaves fold up at night in a daily motion called nyctinasty, but the plant is sensitive to dry air, tap water and bright sun.",
+    "careTips": [
+      "Use distilled, filtered or rainwater. Tap minerals cause crispy brown edges.",
+      "Keep humidity high with a humidifier or a pebble tray.",
+      "Curling leaves mean it is thirsty or the air is too dry.",
+      "Avoid direct sun, which fades and scorches the stripes.",
+      "Keep it away from cold drafts and heating vents."
+    ]
+  },
+  {
+    "id": "spider_plant",
+    "commonName": "Spider Plant",
+    "scientificName": "Chlorophytum comosum",
+    "category": "Hanging",
+    "difficulty": "Easy",
+    "watering": "Every 7 days. Keep the soil lightly moist and let the top inch dry out.",
+    "sunlight": "Bright, indirect light",
+    "humidity": "Medium (40-60%)",
+    "temperature": "13-27°C (55-80°F)",
+    "soil": "Well-draining, general-purpose potting mix",
+    "toxicity": "Non-toxic to cats and dogs",
+    "description": "A cheerful, arching plant with striped green and white leaves that sends out dangling baby plantlets. It is adaptable, pet-friendly and one of the easiest houseplants to propagate.",
+    "careTips": [
+      "Brown tips are often caused by fluoride and chlorine in tap water or by dry air.",
+      "Pot up the plantlets in soil or root them in water to make new plants.",
+      "It likes being slightly root-bound, so repot only when roots crowd the pot.",
+      "Provide bright indirect light for the best variegation and more plantlets.",
+      "Feed lightly every month during spring and summer."
+    ]
+  }
+]

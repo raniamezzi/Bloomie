@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand -->
+    <string name="brand_wordmark">bloomie</string>
+
+    <!-- Navigation -->
+    <string name="nav_garden_short">Garden</string>
+
+    <!-- Welcome / auth -->
+    <string name="welcome_have_account">I already have an account</string>
+    <string name="cd_welcome_plant">A lush green Monstera plant</string>
+    <string name="register_title">Create your account</string>
+    <string name="register_subtitle">Start caring for your plants in a minute</string>
+    <string name="btn_register">Create Account</string>
+    <string name="hint_name_optional">Your name (optional)</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_todays_tasks">Today\'s Tasks</string>
+    <string name="dashboard_hero_all_done">All your plants are watered</string>
+    <string name="dashboard_nothing_due">Nothing due today</string>
+    <string name="dashboard_streak_start">Water a plant to start your streak</string>
+    <plurals name="dashboard_plants_to_water">
+        <item quantity="one">%d plant to water today</item>
+        <item quantity="other">%d plants to water today</item>
+    </plurals>
+    <string name="btn_water">Water</string>
+
+    <!-- Garden -->
+    <string name="filter_needs_water">Needs Water</string>
+    <string name="filter_healthy">Healthy</string>
+    <string name="garden_no_results">No plants match your search</string>
+    <string name="room_unassigned">No room set</string>
+    <string name="cd_add_plant">Add plant</string>
+
+    <!-- Placeholders for screens that arrive in later batches -->
+    <string name="coming_soon">This screen arrives in the next update.</string>
+    <string name="coming_soon_identify">Plant identifier arrives in the next update.</string>
+    <string name="coming_soon_library">Care Library arrives in the next update.</string>
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="250dp"
+    android:viewportWidth="360"
+    android:viewportHeight="250">
+
+    <!-- 1. SOFT BACKGROUND WATERCOLOR WASHES -->
+    <!-- Right blush pink organic watercolor cloud -->
+    <path
+        android:fillAlpha="0.55"
+        android:fillColor="#F4C7CB"
+        android:pathData="M270,250 C262,188 278,132 310,98 C328,78 346,66 360,62 L360,250 Z" />
+    <path
+        android:fillAlpha="0.40"
+        android:fillColor="#F8D8DB"
+        android:pathData="M240,250 C244,200 266,160 298,136 C322,118 344,108 360,105 L360,250 Z" />
+
+    <!-- Subtle left blush wash behind the branch -->
+    <path
+        android:fillAlpha="0.22"
+        android:fillColor="#F4C7CB"
+        android:pathData="M28,195 C28,162 58,142 92,148 C118,152 132,178 122,210 C112,235 45,230 28,195 Z" />
+
+    <!-- Back warm sand watercolor hill -->
+    <path
+        android:fillAlpha="0.65"
+        android:fillColor="#EAE3D8"
+        android:pathData="M0,250 L0,192 C52,155 112,138 168,156 C220,172 272,165 360,145 L360,250 Z" />
+
+    <!-- Front warm beige watercolor mound -->
+    <path
+        android:fillAlpha="0.85"
+        android:fillColor="#E2DBD0"
+        android:pathData="M18,250 C62,202 135,188 208,202 C268,214 318,218 360,204 L360,250 Z" />
+
+    <!-- 2. BOTTOM-LEFT BOTANICAL BRANCH (7 WATERCOLOR LEAVES) -->
+    <!-- Curved stem -->
+    <path
+        android:strokeColor="#5A765B"
+        android:strokeLineCap="round"
+        android:strokeWidth="2.2"
+        android:pathData="M34,250 C46,212 68,180 98,156" />
+
+    <!-- Tip leaf -->
+    <path
+        android:fillAlpha="0.92"
+        android:fillColor="#738F72"
+        android:pathData="M96,158 C98,143 111,135 120,140 C117,152 105,159 96,158 Z" />
+    <!-- Upper-left leaf -->
+    <path
+        android:fillAlpha="0.94"
+        android:fillColor="#678367"
+        android:pathData="M82,171 C67,162 61,147 68,139 C80,143 85,157 82,171 Z" />
+    <!-- Upper-right leaf -->
+    <path
+        android:fillAlpha="0.88"
+        android:fillColor="#829D80"
+        android:pathData="M84,172 C99,165 112,167 117,176 C106,182 92,179 84,172 Z" />
+    <!-- Middle-left leaf -->
+    <path
+        android:fillAlpha="0.90"
+        android:fillColor="#769275"
+        android:pathData="M65,190 C48,182 40,167 47,158 C60,162 67,176 65,190 Z" />
+    <!-- Middle-right leaf -->
+    <path
+        android:fillAlpha="0.92"
+        android:fillColor="#6A866A"
+        android:pathData="M67,192 C84,186 98,189 104,199 C91,205 76,201 67,192 Z" />
+    <!-- Lower-left leaf -->
+    <path
+        android:fillAlpha="0.92"
+        android:fillColor="#6B876B"
+        android:pathData="M49,214 C33,207 26,194 32,185 C45,188 51,201 49,214 Z" />
+    <!-- Lower-right leaf -->
+    <path
+        android:fillAlpha="0.88"
+        android:fillColor="#809B7E"
+        android:pathData="M51,217 C67,213 81,217 85,227 C72,231 59,226 51,217 Z" />
+
+    <!-- 3. BOTTOM-RIGHT BROAD FOLIAGE CLUSTER -->
+    <!-- Back-right upright leaf (shifted slightly left so pink blossom breathes) -->
+    <path
+        android:fillAlpha="0.88"
+        android:fillColor="#849E82"
+        android:pathData="M306,250 C298,202 308,160 324,132 C334,168 326,212 315,250 Z" />
+    <path
+        android:strokeAlpha="0.55"
+        android:strokeColor="#546E54"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.4"
+        android:pathData="M311,250 C306,208 313,168 323,137" />
+
+    <!-- Main wide diagonal sage leaf -->
+    <path
+        android:fillAlpha="0.95"
+        android:fillColor="#688468"
+        android:pathData="M302,250 C268,212 238,168 216,124 C264,144 296,192 314,250 Z" />
+    <!-- Watercolor light wash on upper blade -->
+    <path
+        android:fillAlpha="0.32"
+        android:fillColor="#93AC91"
+        android:pathData="M302,250 C268,212 238,168 216,124 C248,152 278,196 307,250 Z" />
+    <!-- Center vein -->
+    <path
+        android:strokeAlpha="0.65"
+        android:strokeColor="#4A644A"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.6"
+        android:pathData="M308,250 C276,210 246,168 220,128" />
+
+    <!-- Foreground wide lower leaf -->
+    <path
+        android:fillAlpha="0.92"
+        android:fillColor="#799478"
+        android:pathData="M306,250 C268,244 232,228 206,208 C246,202 284,220 312,250 Z" />
+    <path
+        android:strokeAlpha="0.55"
+        android:strokeColor="#516B51"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.4"
+        android:pathData="M309,250 C274,238 238,225 210,210" />
+
+    <!-- 4. FOREGROUND PINK FLOWER SPRIG & PETALS (LAYERED IN FRONT) -->
+    <!-- Delicate pink stem on right -->
+    <path
+        android:strokeAlpha="0.80"
+        android:strokeColor="#DF979C"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.6"
+        android:pathData="M342,216 L342,144 M334,184 L342,176 M349,172 L342,164" />
+    <!-- 4-petal pink blossom clearly visible on the right -->
+    <path
+        android:fillAlpha="0.88"
+        android:fillColor="#E5A0A5"
+        android:pathData="M342,127 C345,132 345,138 342,141 C339,138 339,132 342,127 Z" />
+    <path
+        android:fillAlpha="0.88"
+        android:fillColor="#E5A0A5"
+        android:pathData="M342,155 C345,150 345,144 342,141 C339,144 339,150 342,155 Z" />
+    <path
+        android:fillAlpha="0.88"
+        android:fillColor="#E5A0A5"
+        android:pathData="M328,141 C333,138 339,138 342,141 C339,144 333,144 328,141 Z" />
+    <path
+        android:fillAlpha="0.88"
+        android:fillColor="#E5A0A5"
+        android:pathData="M356,141 C351,138 345,138 342,141 C345,144 351,144 356,141 Z" />
+    <path
+        android:fillColor="#F9E5E7"
+        android:pathData="M342,139 A2,2 0 1,1 341.9,139 Z" />
+
+    <!-- Bottom center scattered pink petals -->
+    <path
+        android:fillAlpha="0.80"
+        android:fillColor="#E4A3A8"
+        android:pathData="M156,226 C160,222 166,223 167,227 C163,230 158,229 156,226 Z" />
+    <path
+        android:fillAlpha="0.80"
+        android:fillColor="#E4A3A8"
+        android:pathData="M173,231 C177,228 182,230 181,234 C177,236 173,234 173,231 Z" />
+    <path
+        android:fillAlpha="0.80"
+        android:fillColor="#E4A3A8"
+        android:pathData="M189,225 A2.2,2.2 0 1,1 188.9,225 Z" />
+</vector>

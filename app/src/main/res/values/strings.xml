@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand -->
+    <string name="app_name">Bloomie</string>
+    <string name="tagline">Every leaf tells a story.</string>
+    <string name="welcome_title">Discover. Care. Grow.</string>
+    <string name="welcome_subtitle">Your personal plant care companion</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_garden">My Garden</string>
+    <string name="nav_identify">Identify</string>
+    <string name="nav_library">Library</string>
+
+    <!-- Auth -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to keep your garden thriving</string>
+    <string name="hint_name">Your name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Sign In</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="error_name_required">Please enter your name</string>
+    <string name="error_email_invalid">Please enter a valid email address</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="default_user_name">Plant Lover</string>
+
+    <!-- Dashboard -->
+    <string name="greeting_morning">Good morning, %1$s</string>
+    <string name="greeting_afternoon">Good afternoon, %1$s</string>
+    <string name="greeting_evening">Good evening, %1$s</string>
+    <string name="dashboard_today_care">Today\'s Care</string>
+    <string name="dashboard_progress">%1$d of %2$d tasks done</string>
+    <string name="dashboard_all_done">All caught up. Your plants are happy!</string>
+    <string name="dashboard_streak_title">Watering streak</string>
+    <string name="dashboard_streak_value">%1$d-day streak</string>
+    <string name="dashboard_plants_count">Plants</string>
+    <string name="dashboard_due_today">Due today</string>
+    <string name="dashboard_overdue">Overdue</string>
+    <string name="dashboard_upcoming">Coming up</string>
+    <string name="dashboard_quick_actions">Quick actions</string>
+    <string name="action_water_now">Water now</string>
+    <string name="action_add_plant">Add plant</string>
+    <string name="action_identify_plant">Identify a plant</string>
+    <string name="action_care_coach">Care Coach</string>
+    <string name="action_schedule">Watering schedule</string>
+    <string name="see_all">See all</string>
+
+    <!-- Garden -->
+    <string name="garden_title">My Garden</string>
+    <string name="garden_search_hint">Search your plants</string>
+    <string name="garden_empty_title">Your garden is empty</string>
+    <string name="garden_empty_message">Add your first plant and Bloomie will remind you when it\'s thirsty.</string>
+    <string name="filter_all">All</string>
+    <string name="room_living_room">Living Room</string>
+    <string name="room_bedroom">Bedroom</string>
+    <string name="room_kitchen">Kitchen</string>
+    <string name="room_bathroom">Bathroom</string>
+    <string name="room_office">Office</string>
+    <string name="room_balcony">Balcony</string>
+
+    <!-- Plant status -->
+    <string name="status_healthy">Healthy</string>
+    <string name="status_needs_water">Needs water</string>
+    <string name="status_overdue">Overdue</string>
+    <string name="status_attention">Needs attention</string>
+
+    <!-- Watering labels -->
+    <string name="water_today">Water today</string>
+    <string name="water_tomorrow">Water tomorrow</string>
+    <string name="water_in_days">Water in %1$d days</string>
+    <string name="water_overdue_days">%1$d days overdue</string>
+    <string name="water_overdue_one_day">1 day overdue</string>
+    <string name="last_watered">Last watered %1$s</string>
+    <string name="never_watered">Never watered</string>
+    <string name="watered_success">%1$s has been watered</string>
+    <string name="watered_today">Watered today</string>
+    <string name="every_n_days">Every %1$d days</string>
+    <plurals name="days_count">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="plants_count">
+        <item quantity="one">%d plant</item>
+        <item quantity="other">%d plants</item>
+    </plurals>
+
+    <!-- Plant details -->
+    <string name="details_title">Plant Details</string>
+    <string name="details_care_overview">Care overview</string>
+    <string name="details_watering">Watering</string>
+    <string name="details_sunlight">Sunlight</string>
+    <string name="details_room">Room</string>
+    <string name="details_notes">Notes</string>
+    <string name="details_history">Watering history</string>
+    <string name="details_no_history">No watering recorded yet</string>
+    <string name="details_no_notes">No notes yet</string>
+    <string name="btn_mark_watered">Mark as watered</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="delete_plant_title">Delete plant?</string>
+    <string name="delete_plant_message">%1$s will be removed from your garden. This can\'t be undone.</string>
+
+    <!-- Add / edit plant -->
+    <string name="add_plant_title">Add Plant</string>
+    <string name="edit_plant_title">Edit Plant</string>
+    <string name="hint_plant_name">Plant name</string>
+    <string name="hint_species">Species</string>
+    <string name="hint_nickname">Nickname (optional)</string>
+    <string name="hint_room">Room</string>
+    <string name="hint_watering_frequency">Water every (days)</string>
+    <string name="hint_sunlight">Sunlight</string>
+    <string name="hint_notes">Notes</string>
+    <string name="btn_choose_photo">Choose photo</string>
+    <string name="btn_take_photo">Take photo</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="error_plant_name_required">Please give your plant a name</string>
+    <string name="error_frequency_invalid">Enter a number of days between 1 and 90</string>
+    <string name="plant_saved">Plant saved</string>
+    <string name="plant_deleted">Plant deleted</string>
+
+    <!-- Sunlight options -->
+    <string name="sunlight_low">Low light</string>
+    <string name="sunlight_indirect">Bright indirect light</string>
+    <string name="sunlight_partial">Partial sun</string>
+    <string name="sunlight_full">Full sun</string>
+
+    <!-- Identify -->
+    <string name="identify_title">Identify a Plant</string>
+    <string name="identify_subtitle">Snap a clear photo of a leaf or flower</string>
+    <string name="identify_from_camera">Use camera</string>
+    <string name="identify_from_gallery">Pick from gallery</string>
+    <string name="identify_loading">Identifying your plant…</string>
+    <string name="identify_error">We couldn\'t identify that plant. Please try another photo.</string>
+    <string name="identify_no_network">No internet connection. Check your network and try again.</string>
+    <string name="results_title">Results</string>
+    <string name="results_match">%1$d%% match</string>
+    <string name="results_add_to_garden">Add to my garden</string>
+    <string name="results_empty">No matches found</string>
+
+    <!-- Library -->
+    <string name="library_title">Care Library</string>
+    <string name="library_search_hint">Search plants</string>
+    <string name="library_empty">No plants match your search</string>
+    <string name="guide_difficulty">Difficulty</string>
+    <string name="guide_watering">Watering</string>
+    <string name="guide_sunlight">Sunlight</string>
+    <string name="guide_humidity">Humidity</string>
+    <string name="guide_temperature">Temperature</string>
+    <string name="guide_soil">Soil</string>
+    <string name="guide_toxicity">Toxicity</string>
+    <string name="guide_care_tips">Care tips</string>
+    <string name="category_all">All</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_moderate">Moderate</string>
+    <string name="difficulty_advanced">Advanced</string>
+
+    <!-- Assistant: schedule and coach -->
+    <string name="schedule_title">Watering Schedule</string>
+    <string name="schedule_today">Today</string>
+    <string name="schedule_this_week">This week</string>
+    <string name="schedule_later">Later</string>
+    <string name="schedule_empty">Nothing scheduled</string>
+    <string name="coach_title">Care Coach</string>
+    <string name="coach_subtitle">What is your plant showing?</string>
+    <string name="coach_question_progress">Question %1$d of %2$d</string>
+    <string name="coach_likely_cause">Most likely cause</string>
+    <string name="coach_other_causes">Other possibilities</string>
+    <string name="coach_how_to_fix">How to fix it</string>
+    <string name="coach_prevention">Prevention</string>
+    <string name="coach_start_over">Start over</string>
+    <string name="coach_next">Next</string>
+    <string name="coach_see_diagnosis">See diagnosis</string>
+    <string name="coach_load_error">Care Coach could not be loaded.</string>
+
+    <!-- Notifications -->
+    <string name="channel_watering_name">Watering reminders</string>
+    <string name="channel_watering_description">Reminders when your plants need water</string>
+    <string name="notification_title">Time to water!</string>
+    <string name="notification_text_single">%1$s is thirsty</string>
+    <string name="notification_text_multiple">%1$d plants need water today</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_greeting">Hi, %1$s</string>
+
+    <!-- Generic -->
+    <string name="loading">Loading…</string>
+    <string name="retry">Try again</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="back">Back</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <!-- Accessibility -->
+    <string name="cd_plant_photo">Plant photo</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_notifications">Reminders</string>
+    <string name="cd_water_plant">Water plant</string>
+
+</resources>

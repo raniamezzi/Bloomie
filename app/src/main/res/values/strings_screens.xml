@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Plant details -->
+    <string name="details_next_watering">Next watering</string>
+    <string name="btn_water_now">Water Now</string>
+    <string name="details_needs_attention">Needs attention</string>
+    <string name="details_needs_attention_hint">Flag this plant so it stands out in your garden</string>
+    <string name="details_not_found">This plant could not be found.</string>
+
+    <!-- Add / edit plant -->
+    <string name="add_already_watered">I watered it today</string>
+    <string name="add_already_watered_hint">Turn off to be reminded to water it today</string>
+    <string name="add_photo_hint">Add a photo of your plant</string>
+    <string name="hint_frequency_helper">Between 1 and 90 days</string>
+    <string name="camera_permission_needed">Camera permission is needed to take a photo. You can choose one from your gallery instead.</string>
+    <string name="photo_save_error">Could not save that photo. Please try another one.</string>
+
+    <!-- Library -->
+    <string name="filter_easy">Easy</string>
+    <string name="filter_medium">Medium</string>
+    <string name="filter_low_light">Low Light</string>
+    <string name="filter_pet_friendly">Pet Friendly</string>
+    <string name="btn_add_to_garden">Add to My Garden</string>
+    <string name="guide_about">About this plant</string>
+    <string name="guide_load_error">Care Library could not be loaded.</string>
+
+    <!-- Identify -->
+    <string name="identify_btn">Identify Plant</string>
+    <string name="identify_placeholder">Take or choose a photo of your plant</string>
+    <string name="identify_pick_first">Choose or take a photo first</string>
+
+    <!-- Identify results -->
+    <string name="results_save_to_garden">Save to My Garden</string>
+    <string name="results_best_match">Best match</string>
+    <string name="results_other_matches">Alternative matches</string>
+    <string name="results_tap_to_select">Tap a match to select it</string>
+    <string name="results_family">Family: %1$s</string>
+    <string name="results_notice_live">Identified with Pl@ntNet</string>
+    <string name="results_notice_demo_no_key">Demo results. Add your Pl@ntNet API key in RetrofitClient to identify real plants.</string>
+    <string name="results_notice_demo_offline">Pl@ntNet could not be reached, so these are demo matches.</string>
+    <string name="cd_scanned_photo">Photo you scanned</string>
+
+    <!-- Schedule -->
+    <string name="schedule_overdue">Overdue</string>
+    <string name="schedule_due_today">Due Today</string>
+    <string name="schedule_upcoming_week">Upcoming This Week</string>
+
+    <!-- Care coach -->
+    <string name="coach_step_of">Step %1$d of %2$d</string>
+    <string name="coach_step_questions">A few quick questions</string>
+    <string name="coach_step_diagnosis">Your diagnosis</string>
+    <string name="coach_signs">Signs to check</string>
+    <string name="coach_no_causes">No matching causes found. Try different answers.</string>
+    <string name="urgency_high">High urgency</string>
+    <string name="urgency_medium">Medium urgency</string>
+    <string name="urgency_low">Low urgency</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Permanent plant photos (camera captures for the add/edit form) -->
+    <files-path
+        name="plant_images"
+        path="plant_images/" />
+    <!-- Temporary scans taken on the Identify screen -->
+    <cache-path
+        name="scans"
+        path="scans/" />
+</paths>

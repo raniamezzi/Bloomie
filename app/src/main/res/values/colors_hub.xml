@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Translucent white used on top of the sage hero card -->
+    <color name="sage_track">#40FFFFFF</color>
+    <color name="sage_pill_on_card">#26FFFFFF</color>
+</resources>

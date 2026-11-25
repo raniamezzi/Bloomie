@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Translucent white for round buttons that float over photos -->
+    <color name="overlay_button">#E6FFFFFF</color>
+</resources>
